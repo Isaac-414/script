@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1>JavaScript objects</h1>
+    <h2>Accessing Nested Objects</h2>
+    <p id="demo"></p>
+
+    <script>
+      // Create nested Objects
+      const myObj = 
+      {
+        name: "John",
+        age: 30,
+        myCars: {
+          car1: "Ford",
+          car2: "BMW",
+        }
+      }
+      document.getElementById("demo").innerHTML = myObj.mycar.car2;
+      
+    </script>
+  </body>
+</html>
